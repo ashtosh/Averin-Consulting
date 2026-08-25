@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 270" role="img" aria-labelledby="title desc">
+  <title id="title">Averin Consulting</title>
+  <desc id="desc">Averin Consulting gold A mark and wordmark on midnight navy</desc>
+  <rect width="300" height="270" fill="#06111f"/>
+  <g transform="translate(66 18)">
+    <path fill="#d4a64f" d="M20 138 86 16l70 122h-29L86 66 48 138Z"/>
+    <path fill="#06111f" d="m86 63 22 39H65Z"/>
+    <path d="M36 126 155 43" fill="none" stroke="#d4a64f" stroke-width="3.5" stroke-linecap="round"/>
+    <g transform="translate(157 37)" fill="#f3d392">
+      <path d="M0-12 2.7-2.7 12 0 2.7 2.7 0 12-2.7 2.7-12 0-2.7-2.7Z"/>
+      <circle r="2.4"/>
+    </g>
+  </g>
+  <text x="150" y="205" text-anchor="middle" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="500" letter-spacing="10">AVERIN</text>
+  <text x="150" y="239" text-anchor="middle" fill="#d4a64f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" letter-spacing="8">CONSULTING</text>
+</svg>
