@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+  <title id="title">Averin</title>
+  <desc id="desc">Averin gold A mark on midnight navy</desc>
+  <rect width="180" height="180" rx="24" fill="#06111f"/>
+  <g transform="translate(24 18)">
+    <path fill="#d4a64f" d="M12 120 66 20l58 100h-24L66 61 35 120Z"/>
+    <path fill="#06111f" d="m66 59 18 32H49Z"/>
+    <path d="M24 111 123 42" fill="none" stroke="#d4a64f" stroke-width="3.2" stroke-linecap="round"/>
+    <g transform="translate(126 38)" fill="#f3d392"><path d="M0-10 2.2-2.2 10 0 2.2 2.2 0 10-2.2 2.2-10 0-2.2-2.2Z"/><circle r="2"/></g>
+  </g>
+</svg>
