@@ -25,14 +25,6 @@ const services = [
   ["Independent Design Authority", "Provide retailer-side architecture, process and solution assurance through implementation."],
 ];
 
-const loopSteps = [
-  ["01", "PLAN", "Set financial, assortment, demand and inventory intent."],
-  ["02", "BUY", "Commit product, materials and supply against the plan."],
-  ["03", "MOVE", "Allocate, replenish and position inventory across the network."],
-  ["04", "SELL", "Execute across channels and capture real demand signals."],
-  ["05", "SHAPE", "Learn from performance and reshape the next plan, buy and inventory response."],
-];
-
 export default function Home() {
   return <>
     <section className="home-hero home-hero-brand"><div className="container hero-brand-grid">
@@ -41,26 +33,10 @@ export default function Home() {
         <h1>Retail Planning.<br/>Supply Chain.<br/><span>Powered by AI.</span></h1>
         <p className="hero-copy">Independent advisory for ambitious fashion, luxury and specialty retailers—connecting strategy, planning, inventory, technology and AI to better business decisions.</p>
         <div className="hero-actions"><Link className="button button-gold" href="/contact">Talk to an Advisor <span>→</span></Link><Link className="button button-outline-light" href="/capabilities">Explore Capabilities <span>→</span></Link></div>
-        <div className="lifecycle" aria-label="Closed-loop retail planning lifecycle"><span><b>01</b>PLAN</span><i>→</i><span><b>02</b>BUY</span><i>→</i><span><b>03</b>MOVE</span><i>→</i><span><b>04</b>SELL</span><i>→</i><span><b>05</b>SHAPE</span><i className="loop-back">↺ PLAN</i></div>
       </div>
       <div className="hero-impact-panel">
         <p className="panel-label">OUR IMPACT</p>
         {impact.map(([n,t,c]) => <article className="impact-item" key={t}><span>{n}</span><div><h3>{t}</h3><p>{c}</p></div></article>)}
-      </div>
-    </div></section>
-
-    <section className="closed-loop-section"><div className="container closed-loop-grid">
-      <div className="closed-loop-copy">
-        <p className="eyebrow">AVERIN CLOSED-LOOP PLANNING</p>
-        <h2>PLAN → BUY → MOVE → SELL → SHAPE → PLAN</h2>
-        <p className="lede">Retail planning should not end when product reaches the customer. Sell-through, margin, inventory, customer demand and execution signals should continuously <strong>shape</strong> the next financial plan, assortment, buy and inventory decision.</p>
-        <p className="shape-note"><strong>SHAPE</strong> is the learning layer: sense what happened, understand why, decide what should change, and feed that intelligence back into PLAN.</p>
-      </div>
-      <div className="planning-loop" role="img" aria-label="Circular closed-loop planning model: Plan, Buy, Move, Sell, Shape, returning to Plan">
-        <div className="loop-ring"></div>
-        <div className="loop-center"><strong>CLOSED-LOOP</strong><span>PLANNING</span><small>Learn • Adapt • Replan</small></div>
-        {loopSteps.map(([n,title,copy],i)=><div className={`loop-node loop-node-${i+1}`} key={title}><b>{n}</b><strong>{title}</strong><span>{copy}</span></div>)}
-        <div className="loop-return">↺</div>
       </div>
     </div></section>
 
