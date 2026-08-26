@@ -24,11 +24,11 @@ export function SiteFooter() {
   return <footer className="site-footer"><div className="container footer-grid"><div>
     <Link className="brand footer-brand brand-image" href="/" aria-label="Averin Consulting home"><img src="/averin-logo.svg" alt="Averin Consulting" className="footer-logo" /></Link>
     <p>Independent retail planning, supply chain, technology and AI advisory for retailers and manufacturers.</p>
-    <p className="footer-lifecycle">PLAN <span>•</span> BUY <span>•</span> MOVE <span>•</span> SELL</p>
+    <p className="footer-lifecycle" aria-label="Closed-loop planning lifecycle">PLAN <span>→</span> BUY <span>→</span> MOVE <span>→</span> SELL <span>→</span> SHAPE <span>↺</span> PLAN</p>
   </div><div><h4>Advisory</h4><Link href="/services">Services</Link><Link href="/technology-advisory">Software Selection</Link><Link href="/health-check">Planning Health Check</Link></div>
   <div><h4>Expertise</h4><Link href="/capabilities">Planning Capabilities</Link><Link href="/ai-retail-planning">AI for Retail Planning</Link><Link href="/insights">Insights</Link></div>
   <div><h4>Start a conversation</h4><p>Planning transformation, software evaluation, implementation assurance or an independent health check.</p><Link className="text-link" href="/contact">Contact Averin →</Link></div></div>
-  <div className="container footer-bottom"><span>© {new Date().getFullYear()} Averin Consulting. All rights reserved.</span><span>Independent advisory • Deep domain expertise • Client-success driven</span></div></footer>;
+  <div className="container footer-bottom"><span>© {new Date().getFullYear()} Averin Consulting. All rights reserved.</span><span>Independent advisory • Deep domain expertise • Closed-loop planning</span></div></footer>;
 }
 
 export function PageHero({eyebrow,title,description,children}:{eyebrow:string;title:string;description:string;children?:ReactNode}) {
