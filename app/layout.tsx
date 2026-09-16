@@ -4,13 +4,13 @@ import { SiteFooter, SiteHeader } from "@/components/SiteShell";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://averinconsulting.com"),
-  title: { default: "Averin Consulting | Retail Planning, Supply Chain & AI Advisory", template: "%s | Averin Consulting" },
-  description: "Independent retail planning, supply chain, technology selection and AI advisory for fashion, luxury, specialty retail and manufacturing organizations.",
-  keywords: ["retail planning consulting", "fashion retail consulting", "luxury retail planning", "merchandise financial planning", "assortment planning", "demand planning", "allocation", "replenishment", "software selection", "retail AI", "supply chain advisory"],
+  title: { default: "Averin Consulting | Retail Planning, Data & AI Advisory", template: "%s | Averin Consulting" },
+  description: "Independent advisory focused on assortment planning, merchandise financial planning, allocation and replenishment, plus data management and AI advisory around these retail planning solutions.",
+  keywords: ["retail planning consulting", "assortment planning", "merchandise financial planning", "MFP", "allocation", "replenishment", "retail planning data management", "planning software selection", "retail AI", "adaptive planning agent"],
   icons: { icon: "/averin-mark.svg", shortcut: "/averin-mark.svg", apple: "/averin-mark.svg" },
   openGraph: {
-    title: "Averin Consulting | Retail Planning. Supply Chain. Powered by AI.",
-    description: "Independent retail planning, supply chain, technology and AI advisory.",
+    title: "Averin Consulting | Focused Retail Planning, Data & AI Advisory",
+    description: "Independent advisory for assortment planning, MFP, allocation and replenishment, data management and AI.",
     url: "https://averinconsulting.com",
     siteName: "Averin Consulting",
     type: "website",
