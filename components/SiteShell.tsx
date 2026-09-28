@@ -31,7 +31,7 @@ export function SiteFooter() {
 }
 
 export function PageHero({eyebrow,title,description,children}:{eyebrow:string;title:string;description:string;children?:ReactNode}) {
-  return <section className="page-hero"><div className="container narrow"><p className="eyebrow">{eyebrow}</p><h1>{title}</h1><p className="hero-copy">{description}</p>{children}</div></section>;
+  return <section className="page-hero"><div className="container narrow"><p className="eyebrow">{eyebrow}</p><h1>{title}</h1><p className="hero-copy">{description.replaceAll("&apos;", "'")}</p>{children}</div></section>;
 }
 
 export function CTA({title="Test one replenishment decision on your own data.",copy="Start with one recurring inventory or replenishment decision. Averin can map the decision, build a working exception prototype and back-test it before you make a larger AI investment."}:{title?:string;copy?:string}) {
